@@ -19,18 +19,18 @@ const config: Configuration = {
         hid: 'description',
         name: 'description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、新潟県民有志（医師含む、主にHorliX開発チーム）が開設したものです。広域対策のため近隣県（山形・福島・群馬・長野・富山）サイトへのリンク及び比較のため東京都の陽性率時系列グラフなども含まれています。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、山形県関係者（医師含む、主にHorliX開発チーム）が開設したものです。広域対策のため近隣県（秋田・宮城・福島・新潟）サイトへのリンク及び比較のため東京都の陽性率時系列グラフなども含まれています。'
       },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '新潟県 新型コロナウイルス感染症対策サイト'
+        content: '山形県 新型コロナウイルス感染症データ可視化・解説サイト'
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19-niigata-unofficial.netlify.app/'
+        content: 'https://stopcovid19-yamagata-unofficial.netlify.app/'
       },
       {
         hid: 'og:title',
@@ -41,12 +41,12 @@ const config: Configuration = {
         hid: 'og:description',
         property: 'og:description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、新潟県民有志（医師含む、主にHorliX開発チーム）が開設したものです。広域対策のため近隣県（山形・福島・群馬・長野・富山）サイトへのリンク及び比較のため東京都の陽性率時系列グラフなども含まれています。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、山形県関係者（医師含む、主にHorliX開発チーム）が開設したものです。広域対策のため近隣県（秋田・宮城・福島・新潟）サイトへのリンク及び比較のため東京都の陽性率時系列グラフなども含まれています。'
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://stopcovid19-niigata-unofficial.netlify.app/ogp.png'
+        content: 'https://stopcovid19-yamagata-unofficial.netlify.app/ogp.png'
       },
       {
         hid: 'twitter:card',
@@ -56,17 +56,17 @@ const config: Configuration = {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@H_Inomata'
+        content: '@AllNightNihon2b'
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@H_Inomata'
+        content: '@AllNightNihon2b'
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://stopcovid19-niigata-unofficial.netlify.app/ogp.png'
+        content: 'https://stopcovid19-yamagata-unofficial.netlify.app/ogp.png'
       },
       {
         hid: 'fb:app_id',
@@ -198,7 +198,7 @@ const config: Configuration = {
     }
   },
   googleAnalytics: {
-    id: 'UA-105711200-11'
+    id: 'UA-105711200-14'
   },
   build: {
     postcss: {
@@ -221,7 +221,7 @@ const config: Configuration = {
     hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '新潟県 新型コロナウイルス感染症対策サイト',
+    name: '山形県 新型コロナウイルス感染症データ可視化・解説サイト',
     theme_color: '#3b4958',
     background_color: '#ffffff',
     display: 'standalone',
