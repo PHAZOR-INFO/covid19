@@ -8,7 +8,7 @@
         }
       </style>
       <div class="noscript-heading">
-        <img src="/logo-NGT.svg" :alt="$t('山形県')" />
+        <img src="/logo-YMGT.png" :alt="$t('山形県')" />
         {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
       </div>
       <div class="noscript-body">

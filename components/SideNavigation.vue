@@ -10,7 +10,7 @@
       </v-icon>
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <div class="SideNavigation-Logo">
-          <img src="/logo-NGT.svg" :alt="$t('山形県')" />
+          <img src="/logo-YMGT.png" :alt="$t('山形県')" />
         </div>
         <h1 class="SideNavigation-Heading">
           {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
@@ -133,7 +133,9 @@ export default {
           link: this.localePath('/about')
         },
         {
-          title: this.$t('山形県新型コロナウイルス感染症に関するポータルサイト'),
+          title: this.$t(
+            '山形県新型コロナウイルス感染症に関するポータルサイト'
+          ),
           link:
             'https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html'
         },
