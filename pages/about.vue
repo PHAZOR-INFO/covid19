@@ -6,13 +6,13 @@
     <TextCard>
       {{
         $t(
-          '当サイトは新型コロナウイルス感染症 (COVID-19) に関する情報を提供するために、東京都新型コロナ感染症対策サイトのソースコードを元に新潟県に関係する医師と技術者（主にHorliX開発チーム）が共同で開発・開設したものです。'
+          '当サイトは新型コロナウイルス感染症 (COVID-19) に関する情報を提供するために、東京都新型コロナ感染症対策サイトのソースコードを元に山形県に関係する医師と技術者が共同で開発・開設したものです。'
         )
       }}<br />
       <br />
       {{
         $t(
-          '国・新潟県・新潟市などによる公式情報と客観的な数値をわかりやすく伝えることで、新潟県にお住まいの方や、新潟県内に拠点を持つ企業の方、新潟県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
+          '国・山形県による公式情報と客観的な数値を適切に解釈して伝えることで、山形県にお住まいの方や、山形県内に拠点を持つ企業の方、山形県を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
         )
       }}
     </TextCard>
@@ -144,12 +144,12 @@
         path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。（データは順次追加予定です）"
       >
         <a
-          href="https://www.pref.niigata.lg.jp/sec/kenko/bukan-haien.html"
+          href="https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html"
           target="_blank"
           rel="noopener"
           place="catalogWebsite"
         >
-          {{ $t('新潟県新型コロナのページ') }}
+          {{ $t('山形県新型コロナのページ') }}
         </a>
       </i18n>
     </TextCard>
@@ -161,7 +161,7 @@
       }}
       <i18n path="詳しくは、{githubRepo}をご確認ください。">
         <a
-          href="https://github.com/air-h-128k-il/covid19"
+          href="https://github.com/ANN2b-MD/covid19"
           target="_blank"
           rel="noopener"
           place="githubRepo"
@@ -171,9 +171,9 @@
       </i18n>
     </TextCard>
     <TextCard :title="$t('お問い合わせ先')">
-      {{ $t('PHAZOR') }}<br />
-      {{ $t('HorliX開発チーム') }}:
-      <a href="https://phazor.info/HorliX-J">visit_contact_page</a>
+      {{ $t('ANN2b') }}<br />
+      {{ $t('ANN2b') }}:
+      <a href="https://twitter.com/AllNightNihon2b">twitter</a>
     </TextCard>
   </div>
 </template>

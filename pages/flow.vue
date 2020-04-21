@@ -16,12 +16,12 @@
       </div>
       <div class="Flow-Card-Button-Wrapper mt-6">
         <a
-          href="https://www.pref.niigata.lg.jp/site/fukushi/"
+          href="https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html"
           target="_blank"
           rel="noopener"
           class="Flow-Card-Button"
         >
-          {{ $t('詳細を見る(新潟県福祉保健部)') }}
+          {{ $t('詳細を見る(山形県福祉保健部)') }}
           <v-icon class="Flow-Card-Button-ExternalLinkIcon" size="20">
             mdi-open-in-new
           </v-icon>

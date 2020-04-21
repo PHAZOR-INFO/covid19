@@ -1,7 +1,7 @@
-# 新潟県（非公式） 新型コロナウイルス感染症対策サイト
+# 山形県（非公式） 新型コロナウイルス感染症データ可視化・解説サイト
 
 
-[![新潟県 -非公式- 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/20388463/79598600-37e5d580-811f-11ea-94c5-58fc527e0cc7.png)](https://stopcovid19-niigata-unofficial.netlify.app/)
+[![山形県 -非公式- 新型コロナウイルス感染症可視化・解説サイト](https://user-images.githubusercontent.com/20388463/79598600-37e5d580-811f-11ea-94c5-58fc527e0cc7.png)](https://stopcovid19-yamagata-unofficial.netlify.app/)
 
 ### 日本語 | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md) | [Vietnamese](./README_VI.md)
 

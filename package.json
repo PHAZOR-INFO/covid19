@@ -1,8 +1,8 @@
 {
   "name": "covid19",
   "version": "1.0.0",
-  "description": "新潟県 新型コロナウイルス感染症対策サイト",
-  "author": "新潟県",
+  "description": "山形県 新型コロナウイルス感染症対策サイト",
+  "author": "ANN2b",
   "private": true,
   "engines": {
     "node": ">=10.19.0"

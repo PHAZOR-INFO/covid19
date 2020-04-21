@@ -7,7 +7,7 @@
       }}</small>
     </h4>
     <p :class="[$style.open, $style.fzMedium]">
-      <span>{{ $t('詳しくは新潟県の該当ページへ') }}</span>
+      <span>{{ $t('詳しくは山形県の該当ページへ') }}</span>
     </p>
     <dl>
       <div :class="$style.daytime">
@@ -16,7 +16,7 @@
         </dt>
         <dd :class="$style.link">
           <a
-            href="https://www.pref.niigata.lg.jp/sec/kenko/corona-center2.html"
+            href="https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html"
             target="_blank"
             rel="noopener"
           >
