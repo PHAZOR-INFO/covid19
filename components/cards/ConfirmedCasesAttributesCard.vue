@@ -7,7 +7,7 @@
       :chart-option="{}"
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
-      :url="'https://www.pref.niigata.lg.jp/uploaded/attachment/209152.pdf'"
+      :url="'https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html'"
     />
   </v-col>
 </template>

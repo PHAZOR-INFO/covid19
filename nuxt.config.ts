@@ -11,7 +11,7 @@ const config: Configuration = {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#'
     },
-    titleTemplate: '%s | 新潟県 新型コロナウイルス感染症対策サイト',
+    titleTemplate: '%s | 山形県（非公式） 新型コロナウイルス感染症データ可視化・解説サイト',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,7 +19,7 @@ const config: Configuration = {
         hid: 'description',
         name: 'description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、山形県関係者（医師含む、主にHorliX開発チーム）が開設したものです。広域対策のため近隣県（秋田・宮城・福島・新潟）サイトへのリンク及び比較のため東京都の陽性率時系列グラフなども含まれています。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、山形県関係者（医師含む）が開設したものです。広域対策のため近隣県（秋田・宮城・福島・新潟）サイトへのリンク及び比較のため東京都の陽性率時系列グラフなども含まれています。'
       },
       {
         hid: 'og:site_name',
@@ -35,7 +35,7 @@ const config: Configuration = {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '新潟県 新型コロナウイルス感染症対策サイト'
+        content: '山形県 新型コロナウイルス感染症対策サイト'
       },
       {
         hid: 'og:description',

@@ -9,7 +9,7 @@
         <v-col :cols="12" :sm="6">
           <div class="PrintMeta-HeadingWrapper">
             <div class="PrintMeta-Logo">
-              <img src="/logo-NGT.svg" alt="新潟県" />
+              <img src="/logo-NGT.svg" alt="山形県" />
             </div>
             <h1 class="PrintMeta-Heading">
               新型コロナウイルス感染症<br />対策サイト

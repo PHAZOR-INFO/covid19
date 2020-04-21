@@ -6,12 +6,12 @@
       :date="headerItem.date"
     />
     <whats-new class="mb-4" :items="newsItems" />
-    <static-info
+    <!--<static-info
       class="mb-4"
       :url="localePath('/flow')"
       :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
       :btn-text="$t('相談の手順を見る')"
-    />
+    />-->
     <v-row class="DataBlock">
       <tested-number-card />
       <confirmed-cases-number-card />
@@ -32,34 +32,29 @@
     />
     <static-info
       class="mb-4"
-      :url="'https://stopcovid19-yamagata.netlify.com/'"
-      :text="$t('【近隣県（県北部）】山形県非公式サイト')"
+      :url="'https://covid19-akita.netlify.app/'"
+      :text="$t('【近隣県（県北）】秋田県非公式サイト')"
+      :btn-text="$t('Jump!')"
+    />
+    <static-info
+      class="mb-4"
+      :url="'https://miyagi.stopcovid19.jp/'"
+      :text="$t('【近隣県（県東）】宮城県非公式サイト')"
       :btn-text="$t('Jump!')"
     />
     <static-info
       class="mb-4"
       :url="'https://fukushima-covid19.firebaseapp.com/'"
-      :text="$t('【近隣県（阿賀野川の源流）】福島県非公式サイト')"
+      :text="$t('【近隣県（県東南）】福島県公式サイト')"
       :btn-text="$t('Jump!')"
     />
     <static-info
       class="mb-4"
-      :url="'https://stopcovid19-gunma.netlify.com/'"
-      :text="$t('【近隣県（関越道繋がり）】群馬県非公式サイト')"
+      :url="'https://stopcovid19-niigata-unofficial.netlify.app/'"
+      :text="$t('【近隣県（県南）】新潟県非公式サイト')"
       :btn-text="$t('Jump!')"
     />
-    <static-info
-      class="mb-4"
-      :url="'https://stopcovid19-toyama.netlify.com/'"
-      :text="$t('【近隣県（親知らずの向こう）】富山県公認サイト')"
-      :btn-text="$t('Jump!')"
-    />
-    <static-info
-      class="mb-4"
-      :url="'https://stop-covid19-nagano.netlify.app/'"
-      :text="$t('【近隣県（川中島でおなじみ）】長野県非公式サイト')"
-      :btn-text="$t('Jump!')"
-    />
+    
     <!--<v-row class="StaticCard">
     
       <StaticCard>

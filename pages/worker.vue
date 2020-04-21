@@ -28,7 +28,7 @@ export default {
         {
           title: '中小企業・小規模事業者の皆様へ',
           link:
-            'https://www.pref.niigata.lg.jp/sec/sangyoseisaku/corona-sangyo',
+            'https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html',
           body:
             '新型コロナウイルス感染症により事業活動に影響を受けている中小企業等を対象とした相談窓口です。'
         },
@@ -40,8 +40,8 @@ export default {
         {
           title: '建設業者の皆様へ',
           link:
-            'https://www.pref.niigata.lg.jp/sec/dobokukanri/1356878419495.html',
-          body: '新潟県の融資・保証・助成金の窓口です'
+            'https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html',
+          body: '山形県の融資・保証・助成金の窓口です'
         }
       ]
     }

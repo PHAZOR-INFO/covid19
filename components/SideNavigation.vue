@@ -10,7 +10,7 @@
       </v-icon>
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <div class="SideNavigation-Logo">
-          <img src="/logo-NGT.svg" :alt="$t('新潟県')" />
+          <img src="/logo-NGT.svg" :alt="$t('山形県')" />
         </div>
         <h1 class="SideNavigation-Heading">
           {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
@@ -66,7 +66,7 @@
             <img src="/facebook.png" alt="Facebook" />
           </a>-->
           <a
-            href="https://github.com/air-h-128k-il/covid19"
+            href="https://github.com/ANN2b-MD/covid19"
             target="_blank"
             rel="noopener"
           >
@@ -84,31 +84,15 @@
           </a>
           {{ $t('の下に提供されています。') }}
           <br />
-          {{ $t('東京都サイトを参考に新潟県内外の') }}
+          {{ $t('東京都サイトを参考に山形県内外の医師・エンジニア') }}
           <a
             rel="license"
             target="_blank"
-            :href="$t('https://phazor.info/blog-ja/?page_id=2')"
+            :href="$t('https://allnightnihon2b.net/')"
           >
-            {{ $t('医師') }}
+            {{ $t('有志') }}
           </a>
-          {{ $t('・') }}
-          <a
-            rel="license"
-            target="_blank"
-            :href="$t('https://twitter.com/air_h_128k_ili/')"
-          >
-            {{ $t('エンジニア') }}
-          </a>
-          {{ $t(' 有志（主に') }}
-          <a
-            rel="license"
-            target="_blank"
-            :href="$t('https://phazor.info/HorliX-J/')"
-          >
-            {{ $t('HorliX 開発チーム') }}
-          </a>
-          {{ $t('）により開発・運用されています') }}
+          {{ $t('により開発・運用されています') }}
         </small>
       </v-footer>
     </div>
@@ -149,30 +133,13 @@ export default {
           link: this.localePath('/about')
         },
         {
-          icon: 'covid',
-          title: this.$t('新型コロナウイルス感染症が心配なときに'),
-          link: this.localePath('/flow'),
-          divider: true
-        },
-        {
-          icon: 'parent',
-          title: this.$t('お子様をお持ちの皆様へ'),
-          link: this.localePath('/parent')
-        },
-        {
-          icon: 'mdi-domain',
-          title: this.$t('企業の皆様・はたらく皆様へ'),
-          link: this.localePath('/worker'),
-          divider: true
-        },
-        {
-          title: this.$t('新潟県新型コロナウイルス感染症対策本部報'),
+          title: this.$t('山形県新型コロナウイルス感染症に関するポータルサイト'),
           link:
-            'https://www.pref.niigata.lg.jp/sec/kikitaisaku/shingata-corona.html'
+            'https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html'
         },
         {
-          title: this.$t('新潟県公式ホームページ'),
-          link: 'https://www.pref.niigata.lg.jp/',
+          title: this.$t('山形県公式ホームページ'),
+          link: 'https://www.pref.yamagata.jp/',
           divider: true
         }
       ]
