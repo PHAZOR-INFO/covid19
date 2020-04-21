@@ -40,8 +40,8 @@ export default {
           title: `2. ${this.$t('感染症を疑う場合の対応')}`,
           body: [
             this.$t('各保健所にご相談ください'),
-            this.$t('「新潟県新型コロナウイルス感染症コールセンター」'),
-            '<a href="https://www.pref.niigata.lg.jp/sec/kikitaisaku/callsenter.html" target="_blank" rel="noopener">https://www.pref.niigata.lg.jp/sec/kikitaisaku/callsenter.html</a>'
+            this.$t('「山形県新型コロナウイルス感染症コールセンター」'),
+            '<a href="https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html" target="_blank" rel="noopener">https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html</a>'
           ].join('<br />')
         },
         {

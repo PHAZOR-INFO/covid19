@@ -8,7 +8,7 @@
           }}</span>
         </div>
         <div :class="[$style.AdvisoryContentsColsSentense, 'mt-4']">
-          {{ $t('新潟県新型コロナウイルス感染症コールセンター') }}
+          {{ $t('山形県新型コロナウイルス感染症コールセンター') }}
         </div>
         <div>
           <div :class="[$style.AdvisoryBoxContainer, $style.AdvisoryWhiteBox]">
@@ -32,7 +32,7 @@
             ]"
           >
             <a
-              href="https://www.pref.niigata.lg.jp/site/fukushi/"
+              href="https://www.pref.yamagata.jp/ou/bosai/020072/kochibou/coronavirus/coronavirus.html"
               target="_blank"
               rel="noopener"
             >
